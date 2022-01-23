@@ -1,0 +1,45 @@
+.hero {
+    margin-bottom: 70px;
+    padding: 91px 0 185px 0;
+    background-image: url(../../images/her0-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 635px);
+    object-fit: cover;
+}
+
+.hero__inner {
+    max-width: 490px;
+
+}
+
+.hero__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+}
+
+.hero__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: $main-color;
+    border-left: 3px solid #888888;
+}
+
+.hero__link {
+    @include link-style;
+    padding: 12px 38.5px;
+    border: none;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: #e9534b;
+    }
+}

@@ -1,0 +1,48 @@
+.brand {
+    margin-bottom: 70px;
+}
+
+.brand__inner {
+    @include flexbox;
+}
+
+.brand__info {
+    max-width: 490px;
+}
+
+.brand__title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 120%;
+}
+
+.brand__text {
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 40px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: $main-color;
+    border-left: 3px solid #888888;
+}
+
+.brand__link {
+    @include link-style;
+    padding: 12px 90px;
+    border: none;
+    transition: background-color 0.5s ease;
+
+    &:hover {
+        background-color: #e9534b;
+    }
+}
+
+.brand__img {
+    width: 400px;
+    height: 600px;
+}

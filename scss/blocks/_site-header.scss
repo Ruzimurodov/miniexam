@@ -1,0 +1,71 @@
+.site-header {
+    margin-bottom: 50px;
+}
+
+.site-header__inner {
+    @include flexbox;
+}
+
+.site-header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+}
+
+.navbar__item {
+    margin-right: 30px;
+}
+
+.navbar__link {
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;    
+    text-align: center;
+    border-bottom: 2px solid transparent;
+    color: $rarely-color;
+    opacity: 0.8;
+    
+    &:hover {
+        opacity: 1;
+        border-bottom: 2px solid $main-color;
+    }
+}
+
+.form-group__input {
+    width: 165px;
+    margin-left: 10px;
+    padding: 6px 0;
+    border: none;
+    border-bottom: 1px solid $main-color;
+    outline: $main-color;
+    
+    &::placeholder {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        color: #666666;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

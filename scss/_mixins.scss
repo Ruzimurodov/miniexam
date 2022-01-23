@@ -1,0 +1,12 @@
+@mixin flexbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin link-style {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: #EA625C;
+}
